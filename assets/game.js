@@ -51,15 +51,19 @@ document.onkeyup = function(event) {
   updateGuessesLeft();
   updateGuessesSoFar();
 
-        if (guessesLeft > 0){
+
+
+     if (guessesLeft > 0){
             if (userGuess == letterToGuess){
                 wins++;
                 document.querySelector('#Wins').innerHTML = "Wins: " + wins;
+                alert("The letter to guess is " + letterToGuess);
                 reset();
             }
-        }else if(guessesLeft == 0){ 
-            losses++;
-            document.querySelector('#Losses').innerHTML = "Losses: " + losses;
-            reset();
+        } else if(guessesLeft == 0){ 
+              losses++;
+              document.querySelector('#Losses').innerHTML = "Losses: " + losses;
+              alert("The letter to guess is " + letterToGuess);
+              reset();
         }
 };
