@@ -1,10 +1,21 @@
 body{
 
-    background-color: coral;
+    background-image: url("psychic background.jpg")
 
 }
 
 header{
     color: red;
 
+}
+
+
+.p1{
+
+	color: blue;
+}
+
+.row{
+
+	color: red;
 }
