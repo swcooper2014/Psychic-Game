@@ -11,16 +11,15 @@ header{
 }
 
 ol{
-	color: lightgray;
+	color: #83878d;
 	font-size: 100%;
 
 }
 
 h2{
 
-	color: lightgray;
+	color: #83878d;
 }
-
 
 .p1{
 
@@ -30,11 +29,6 @@ h2{
 .row{
 
 	color: purple;
-}
-
-panel-header{
-
-	background-color: black;
 }
 
 img{
